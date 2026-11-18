@@ -75,7 +75,7 @@ npx wrangler kv namespace create TASKS_KV
 ```
 
 The second command prints an ID. Put it into `wrangler.toml`, replacing
-`REPLACE_WITH_YOUR_KV_NAMESPACE_ID`:
+id = "8d639fb588d046e39a969ddda7399457",
 
 ```toml
 [[kv_namespaces]]

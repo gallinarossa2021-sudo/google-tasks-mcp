@@ -24,6 +24,6 @@ ALLOW_LOCAL_REDIRECT = "false"
 SERVER_BASE_URL = ""
 
 [[kv_namespaces]]
-binding = "KV"
+binding = "TASKS_KV"
 # Created with: npx wrangler kv namespace create TASKS_KV
 id = "8d639fb588d046e39a969ddda7399457"
